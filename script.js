@@ -16,12 +16,6 @@ function setGradient() {
 }
 
 function randomColor(){
-	const red = Math.floor(Math.random() * 256);
-	const green = Math.floor(Math.random() * 256);
-	const blue = Math.floor(Math.random() * 256);
-	
-	const rgb = red * 256 * 256 + green * 256 + blue
-	return rgb.toString(16);
 	return Math.floor(Math.random() * 16777216).toString(16);
 }
 
